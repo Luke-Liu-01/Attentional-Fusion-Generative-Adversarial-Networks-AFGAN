@@ -7,8 +7,8 @@ from skimage.metrics import structural_similarity as SSIM
 
 
 # test results
-root_path = '../figures/'
-result_path = '../figures/result_test/'
+root_path = './figures/'
+result_path = './figures/result_test/'
 results = {}
 final_results = {}
 
@@ -29,7 +29,7 @@ for folder in os.listdir(result_path):  # each folder contains an experiment res
     final_results[folder].update({'psnr_mean': np.mean(results[folder]['psnr'])})  # compute mean values
     final_results[folder].update({'ssim_mean': np.mean(results[folder]['ssim'])})
 
-with open('../results/results.json', 'w') as f:
+with open('./results/results.json', 'w') as f:
     f.write(json.dumps(results))
-with open('../results/final_results.json', 'w') as f:
+with open('./results/final_results.json', 'w') as f:
     f.write(json.dumps(final_results))
