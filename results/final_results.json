@@ -1,0 +1,26 @@
+{
+    "afgan": {
+        "psnr_mean": 13.363836431671391,
+        "ssim_mean": 0.3966341039449197
+    },
+    "afgan_channel": {
+        "psnr_mean": 13.126044546178031,
+        "ssim_mean": 0.3862294938905727
+    },
+    "afgan_cond": {
+        "psnr_mean": 13.062518706864577,
+        "ssim_mean": 0.3107100123846523
+    },
+    "cdcgan": {
+        "psnr_mean": 11.47334552428583,
+        "ssim_mean": 0.26130105057100483
+    },
+    "cdcgan_up_flatten": {
+        "psnr_mean": 12.539189320424574,
+        "ssim_mean": 0.3713564037993025
+    },
+    "cdcgan_up_modified": {
+        "psnr_mean": 12.810003205498699,
+        "ssim_mean": 0.38378361319337306
+    }
+}
