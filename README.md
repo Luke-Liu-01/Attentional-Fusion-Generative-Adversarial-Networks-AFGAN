@@ -17,7 +17,7 @@ We build our own Text2Image data set named EmojiSet. This data set consists of 7
 I also implement the baseline model (DC-GAN) and its modified version which can be seen in ''CDGAN.py'' and ''UPGAN.py''. You can modified several lines of codes to run ablation experiments. I provide the generated emoji images by different models in `./figures/`. You can also run the code in `./code/utils.py` to compute corresponding metric scores (PSNR and SSIM), which will be stored in `./results`.
 
 ## Acknowledgment
-This project is use the baseline model proposed by Radford et. al. [<sup>1</sup>](#R1) and Radpour et. al.[<sup>2</sup>](#R2). Our new module is proposed inspired by previous work Eca-net [<sup>3</sup>](#R3) and Cbam[<sup>4</sup>](#R4).
+This project use the baseline model proposed by Radford et. al. [<sup>1</sup>](#R1) and Radpour et. al.[<sup>2</sup>](#R2). Our new module is proposed inspired by previous work of Eca-net [<sup>3</sup>](#R3) and Cbam[<sup>4</sup>](#R4).
 
 
 ## Main References
