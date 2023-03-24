@@ -167,7 +167,7 @@ if __name__ == '__main__':
     data_path = './data/emoji_faces/'
     metadata_path = './data/metadata/idx2caption_detailed_ori.json'
     wordvector_path = './models/GoogleNews-vectors-negative300.bin.gz'
-    figure_path = './figures/fake_{}'.format(data_path.split('/')[3])
+    figure_path = './figures/fake_{}'.format(data_path.split('/')[2])
 
     if not os.path.exists(figure_path):
         os.makedirs(figure_path)
@@ -223,8 +223,8 @@ if __name__ == '__main__':
     print('Training time: {} Hours {} Minutes {} Seconds'.format(hour, minute, second))
 
     # save models
-    torch.save(netG, './models/{}_netG_{}.pth'.format(data_path.split('/')[3], EPOCHS))
-    torch.save(netD, './models/{}_netD_{}.pth'.format(data_path.split('/')[3], EPOCHS))
+    torch.save(netG, './models/AFGAN_netG_{}.pth'.format(EPOCHS))
+    torch.save(netD, './models/AFGAN_netD_{}.pth'.format(EPOCHS))
 
     # visualisation
     start =time.perf_counter()
