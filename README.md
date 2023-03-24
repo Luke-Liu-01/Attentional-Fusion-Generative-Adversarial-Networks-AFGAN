@@ -20,7 +20,7 @@ I also implement the baseline model (DC-GAN) and its modified version which can 
 This project is use the baseline model proposed by Radford et. al. [<sup>1</sup>](#R1) and Radpour et. al.[<sup>2</sup>](#R2). Our new module is proposed inspired by previous work Eca-net [<sup>3</sup>](#R3) and Cbam[<sup>4</sup>](#R4).
 
 
-# References
+## Main References
 <div><a name="R1"></a>
 [1] Radford, Alec, Metz, Luke, and Chintala, Soumith. Unsupervised representation learning with deep convolutional generative adversarial networks. arXiv preprint arXiv:1511.06434,2015.
 </div>
