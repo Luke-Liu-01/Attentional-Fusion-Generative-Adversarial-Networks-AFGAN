@@ -2,7 +2,7 @@
 
 ## Introduction
 This is my final project of ''Machine Learning Practical Semster 2''. In this project, we build our own EmojiSet and propose a novel attentional fusion generative adversarial network (AF-GAN) for text-to-image synthesis. AF-GAN outperforms the model used in the previous emoji generation work and can produce more virtually identical eomjis. The architecture of the proposed AF-GAN for text-to-image synthesis is shown as below:
-<div align='center'><img src="./figures/AF-GAN.pdf" width="80%"></div>
+<div align='center'><img src="./figures/afgan.png" width="80%"></div>
 
 ## Data Set
 We build our own Text2Image data set named EmojiSet. This data set consists of 700 emoji images belonging to 100 different facial expressions. Each type of facial expression is provided with a sentence of text descriptions. The images in the data set comes from the the public [Full Emoji Database](https://www.kaggle.com/datasets/eliasdabbas/emoji-data-descriptions-codepoints) and we only select those facial emojis from them. The corresponding text descriptions are made based on the information given on the [emojipedia](https://emojipedia.org/people/) platform. We randomly select 80 different types of emojis (i.e. 560 images) for training and the left 20 categories are used for testing.
